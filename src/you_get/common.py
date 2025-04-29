@@ -23,7 +23,6 @@ from . import json_output as json_output_
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
 
 SITES = {
-    '163'              : 'netease',
     '56'               : 'w56',
     '365yg'            : 'toutiao',
     'acfun'            : 'acfun',
