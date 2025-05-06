@@ -12,8 +12,7 @@ class Extractor():
         self.url = None
         self.title = None
         self.vid = None
-        self.streams = {}
-        self.streams_sorted = []
+
 
         if args:
             self.url = args[0]
