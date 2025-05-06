@@ -15,8 +15,7 @@ class Extractor():
         self.streams = {}
         self.streams_sorted = []
 
-        if args:
-            self.url = args[0]
+
 
 class VideoExtractor():
     def __init__(self, *args):
